@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background:  #FFFFFF;;
+}
+
+#header {
+    background: #0078d8;
+    box-shadow: inset 0 -1px 6px rgba(0,0,0,.1);
+    height: 456px;
+
+}
+#header .content {
+    width: 740px;
+    height:456px;
+    position: relative;
+    margin: auto;
+}
+
+#logo {
+    background: url("logo/logo.png");
+    width: 345px;
+    height: 124px;
+    position: absolute;
+    top: 50%;
+    margin-top: -62px;
+}
+
+#content {
+        /*text-align: center;*//*水平居中*/
+background: #fcc;
+    width: 740px;
+    margin: 50px auto;
+    height: 360px;
+        /*line-height: 360px;*//*垂直居中*/
+}
+
+#footer {
+    background: #ddd;
+    padding-bottom: 60px;
+    height: 40px;
+}
