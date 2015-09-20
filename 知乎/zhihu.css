@@ -116,11 +116,51 @@ button:active {
     vertical-align: -2px;
 }
 #content {
-    /*text-align: center;*//*水平居中*/ 139 border : 1 px #900 dashed;
+    /*text-align: center;*//*水平居中*/
+    139 border: 1px #900 dashed;
     width: 740px;
     margin: 50px auto;
     height: 360px;
     /*line-height: 360px;*//*垂直居中*/
+}
+#content .left,
+#content .right {
+    float: left;
+}
+#content .left {
+    height: 360px;
+    width: 228px;
+}
+#content .right {
+    background: #cff;
+    margin-left: 12px;
+    height: 306px;
+    width: 440px;
+    padding: 27px 30px;
+}
+.photo {
+    border-radius: 31px;
+    background: #fff;
+    margin: 0 10px 10px 0;
+    width: 62px;
+    height:62px;
+    float: left;
+}
+#content .left span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 6px 0 0 6px;
+}
+#content .left span:hover {
+    border-radius: 31px;
+    width: 62px;
+    height:62px;
+    margin: 0;
+}
+
+
 #footer {
     background: #ddd;
     padding-bottom: 60px;
