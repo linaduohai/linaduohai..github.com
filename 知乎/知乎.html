@@ -4,21 +4,38 @@
     <meta charset="UTF-8">
     <title>知乎 - 与世界分享你的知识、经验和见解</title>
     <style>
-        @import "zhihu.css"
+        @import "zhihu.css";
     </style>
 </head>
 <body>
    <div id="header">
       <div class="content">
         <div id="logo"></div>
+              <form id="form">
+                <div id="view">
+                   <div class="title">
+                       <div class="left">注册帐号</div>
+                       <div class="right"><a href="#">登录<span class="arrow"></span></a></div>
+                       <div class="clear"></div>
+                   </div>
+                  <input type="text" placeholder="姓名"/>
+                  <input type="text" placeholder="手机号或邮箱"/>
+                  <input type="password" placeholder="密码（不少于 6 位）"/>
+                  <button type="submit">注册知乎</button>
+                  <div id="sns">
+                      <span>社交帐号登录</span>
+                      <a href="#"><span id="weixin"></span></a>
+                      <a href="#"><span id="weibo"></span></a>
+                      <a href="#"><span id="qq"></span></a>
+                  </div>
+              </form>
       </div>
    </div>
-  <div id="content">
-   内容
-  </div>
-<div id="footer">
-    版权
-</div>
-</div>
+   <div id="content">
+       内容
+   </div>
+   <div id="footer">
+      版权
+   </div>
 </body>
-</html>
+

@@ -2,19 +2,21 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    background:  #FFFFFF;;
+    background: #FFFFFF;;
 }
 
 #header {
     background: #0078d8;
-    box-shadow: inset 0 -1px 6px rgba(0,0,0,.1);
+    box-shadow: inset 0 -1px 6px rgba(0, 0, 0, .1);
     height: 456px;
 
 }
+
 #header .content {
     width: 740px;
-    height:456px;
+    height: 456px;
     position: relative;
     margin: auto;
 }
@@ -28,15 +30,97 @@ body {
     margin-top: -62px;
 }
 
+#form {
+    width: 202px;
+    height: 360px;
+    float: right;
+}
+.title {
+    margin: 40px 0 2px;
+}
+.title .left {
+    float: left;
+}
+.title .right {
+    float: right;
+}
+.title .left,
+.title .right a {
+    color: #fff;
+    text-decoration: none;
+}
+.title .arrow {
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 19px;
+    margin-left: 8px;
+    margin-top: -2px;
+    background: url(../image/signup.png) -1px -1px no-repeat;
+}
+input {
+    margin-top: 18px;
+    width: 180px;
+    height: 17px;
+    padding: 8px 10px;
+    background: #e7f1f8;
+    font-size: 15px;
+    border: 1px solid #1672b9;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(15, 82, 135, .25), 0 1px 0 rgba(255, 255, 255, .15);
+}
+button {
+    margin-top: 18px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 33px;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#80c3f7), to(#6bbaf8));
+    border: 1px solid #1d80cf;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 1px rgba(50, 50, 50, .05);
+    cursor: pointer;
+}
+button:active {
+    background: #57a9e9;
+}
+#sns {
+    color: #fff;
+    margin-top: 18px;
+    height: 25px;
+    line-height: 25px;
+}
+#weixin,
+#weibo,
+#qq {
+    display: inline-block;
+    vertical-align: -4px;
+}
+#weixin {
+    width: 20px;
+    height: 18px;
+    background: url("../image/icon.png") -67px -19px;
+    margin-left: 8px;
+}
+#weibo {
+    width: 21px;
+    height: 19px;
+    background: url("../image/signup.png") -17px -1px;
+    margin-left: 5px;
+}
+#qq {
+    width: 16px;
+    height: 18px;
+    background: url("../image/signup.png") -90px 0;
+    margin-left: 7px;
+    vertical-align: -2px;
+}
 #content {
-        /*text-align: center;*//*水平居中*/
-background: #fcc;
+    /*text-align: center;*//*水平居中*/ 139 border : 1 px #900 dashed;
     width: 740px;
     margin: 50px auto;
     height: 360px;
-        /*line-height: 360px;*//*垂直居中*/
-}
-
+    /*line-height: 360px;*//*垂直居中*/
 #footer {
     background: #ddd;
     padding-bottom: 60px;
